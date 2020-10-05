@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
     let layout = collectionView.collectionViewLayout as? HoneycombLayout
-    layout?.elementWidth = 100.0
+    layout?.elementWidth = 60.0
   }
   
   override func viewDidAppear(_ animated: Bool) {
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return 169
+    return 61
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

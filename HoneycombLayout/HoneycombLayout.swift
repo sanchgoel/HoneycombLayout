@@ -15,7 +15,7 @@ class HoneycombLayout: UICollectionViewLayout {
   private var cellAttributes = [IndexPath: UICollectionViewLayoutAttributes]()
   
   var elementWidth: CGFloat = 10.0
-  let itemSpacing: CGFloat = 20.0
+  let itemSpacing: CGFloat = 15.0
   var center = CGPoint.zero
   
   override func prepare() {
