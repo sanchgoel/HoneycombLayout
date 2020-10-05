@@ -14,6 +14,7 @@
 		118F3D5D2523033100C26194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118F3D5B2523033100C26194 /* LaunchScreen.storyboard */; };
 		118F3D662523038600C26194 /* HoneycombLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F3D652523038600C26194 /* HoneycombLayout.swift */; };
 		118F3D68252316E900C26194 /* HoneycombCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F3D67252316E900C26194 /* HoneycombCollectionViewCell.swift */; };
+		11945636252A1B9200245D4E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11945635252A1B9200245D4E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		118F3D5E2523033100C26194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118F3D652523038600C26194 /* HoneycombLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombLayout.swift; sourceTree = "<group>"; };
 		118F3D67252316E900C26194 /* HoneycombCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombCollectionViewCell.swift; sourceTree = "<group>"; };
+		11945635252A1B9200245D4E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				118F3D592523033100C26194 /* Assets.xcassets */,
 				118F3D5B2523033100C26194 /* LaunchScreen.storyboard */,
+				11945635252A1B9200245D4E /* Extensions.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11945636252A1B9200245D4E /* Extensions.swift in Sources */,
 				118F3D552523033000C26194 /* ViewController.swift in Sources */,
 				118F3D68252316E900C26194 /* HoneycombCollectionViewCell.swift in Sources */,
 				118F3D662523038600C26194 /* HoneycombLayout.swift in Sources */,
